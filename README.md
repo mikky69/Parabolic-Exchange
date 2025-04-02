@@ -33,12 +33,11 @@
 ### **Front-End:**
 - Framework: Next.js
 - Blockchain Integration: Web3.js / Ethers.js
-- State Management: Redux / Vuex
+- State Management: Redux
 
 ### **Back-End:**
-- Framework: Node.js (Express) / Python (Django/Flask)
-- Database: PostgreSQL / MongoDB
-- Caching: Redis
+- Framework: Node.js 
+- Database:  MongoDB
 
 ### **Smart Contracts:**
 - Language: Solidity
@@ -68,9 +67,8 @@ npm install --legacy-peer-deps
 
 ### **Run the Application:**
 
+
 ```bash
-cd Parabolic-Exchange
-```
 npm run dev
 ```
 
