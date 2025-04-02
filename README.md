@@ -31,7 +31,7 @@
 ## **Tech Stack**
 
 ### **Front-End:**
-- Framework: React / Vue.js
+- Framework: Next.js
 - Blockchain Integration: Web3.js / Ethers.js
 - State Management: Redux / Vuex
 
@@ -50,8 +50,8 @@
 ## **Installation**
 
 ### **Prerequisites:**
-- Node.js (v14 or higher)
-- Yarn or npm
+- Node.js (v15 or higher)
+- npm
 - A local blockchain development environment (e.g., Ganache, Hardhat)
 
 ### **Clone the Repository:**
@@ -61,40 +61,19 @@ cd parabolic-exchange
 ```
 
 ### **Install Dependencies:**
-#### Front-End:
 ```bash
-cd frontend
-npm install
+npm install --legacy-peer-deps
 ```
-#### Back-End:
-```bash
-cd backend
-npm install
-```
-#### Smart Contracts:
-```bash
-cd contracts
-npm install
-```
+
 
 ### **Run the Application:**
-#### Front-End:
+
 ```bash
-cd frontend
-npm start
+cd Parabolic-Exchange
 ```
-#### Back-End:
-```bash
-cd backend
-npm start
-```
-#### Smart Contracts:
-```bash
-cd contracts
-npx hardhat node
+npm run dev
 ```
 
----
 
 ## **Usage**
 1. Register as a user or apply to become a verified merchant.
